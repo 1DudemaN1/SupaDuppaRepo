@@ -8,4 +8,5 @@
         Hardeep Shoker 
     </author>
     <engine name="android" spec="~4.1.1" />
+    <access origin="*" />
 </widget>
