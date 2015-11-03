@@ -13,6 +13,8 @@
         $(document).on('deviceready',deviceReady);
         
         function deviceReady(){
+        }
+        function wahzam(){
             
         }
     </script>
@@ -20,23 +22,35 @@
         #iceBulbs{
             background-image: url("css/images/iceBulbs.jpg");
         }
+        #headerbutt{
+            background-image: url("css/images/headbutt.jpg");
+            padding: 63px;
+        }
+        #sizeMatters{
+            min-height: 140px;
+            background-color: black;
+        }#bigFoot{
+            background-image: url("css/images/bigFoot.png");
+            background-position: left;
+        }
+        
     </style>
 </head>
 <body>
     <div id="iceBulbs" data-role="page">
-        <div data-role="header">
-            <h1>
-                Look he Headerbutted him!</h1>
+        <div id="sizeMatters" data-role="header">
+            <h2 id="headerbutt">Look he Headerbutted him!</h2>
         </div>
         <div role="main" class="ui-content">
             Time to get busy and buckle down! No more playing around.
-
+            <br>
             <div>All your codez are belong to us!</div>
             
             <h3>Conflict!</h3>
 
         </div>
-        <div data-role="footer" data-position="fixed">
+        <a href="http://dangelicoguitars.com/StandardSeries"><button onclick="wahzam()">Click here to be transported to a great place.</button></a>
+        <div id="bigFoot" data-role="footer" data-position="fixed">
             <h1>Get that footer out of your mouth!</h1>
         </div>
     </div>
